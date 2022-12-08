@@ -31,7 +31,6 @@ function circleTransform(item){
     let ur = ul.getBoundingClientRect().left;
     let ir = item.getBoundingClientRect().left;
 
-    console.log(ur);
-    console.log(ir);
+    circle.style.left = `${(ir - ur)-10}px`
 }
 

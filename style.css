@@ -60,11 +60,11 @@ ul li i{
 }
 
 ul li i.active{
-    transform: translateY(-30px);
+    transform: translateY(-28px);
     color: white;
 }
 ul li p.active{
-    transform: translateY(-40px);
+    transform: translateY(-50px);
     opacity: 1;
 }
 
