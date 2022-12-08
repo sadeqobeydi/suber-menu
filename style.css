@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --bgcolor : rgb(25, 23, 27) ; 
+}
+body{
+    background-color: var(--bgcolor);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+ul{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 55px;
+    list-style: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ul li{
+    margin: 0px 5px;
+    width: 60px;
+    text-align: center;
+    position: relative;
+}
+ul li span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ul li p{
+    position: absolute;
+    bottom: -50px;
+    color: rgb(56, 56, 56);
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.8s .2s;
+}
+ul li i{
+    color: var(--bgcolor);
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+ul li i.active{
+    transform: translateY(-30px);
+}
+ul li p.active{
+    transform: translateY(-40px);
+    opacity: 1;
+}
+
+ul .circle{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(27, 163, 84);
+    border: 3px solid var(--bgcolor);
+    border-radius: 50%;
+}
+
+
+
