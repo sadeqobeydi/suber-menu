@@ -90,15 +90,15 @@ ul .circle::before , ul .circle::after{
     /* background-color: red; */
 }
 ul .circle::before{
-    left: -22px;
-    border-top-right-radius: 50%;
-    box-shadow: 0px -8px var(--bgcolor);
+    left: -18px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -7px var(--bgcolor);
 }
 
 ul .circle::after{
-    right: -22px;
-    border-top-left-radius: 50%;
-    box-shadow: 0px -8px var(--bgcolor);
+    right: -18px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px -7px var(--bgcolor);
 }
 
 
